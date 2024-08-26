@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "mjml email.mjml -o email.html && pnpm run minify",
-    "minify": "html-minifier email.html -o email.html -c config.json",
+    "compile": "mjml email.mjml -o email.html && pnpm run minify && pnpm run sed",
+    "minify": "html-minifier email.html -o email.html -c config.json && pnpm run sed",
+    "sed": "sed 's/title/monkey/g' email.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
