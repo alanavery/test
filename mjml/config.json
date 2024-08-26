@@ -7,7 +7,6 @@
         "afterBlockBegins": true,
         "afterBlockEnds": true,
         "afterComment": true,
-        "afterProperty": true,
         "afterRuleEnds": true
       },
       "indentBy": 2
