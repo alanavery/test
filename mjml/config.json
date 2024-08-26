@@ -10,8 +10,7 @@
         "afterProperty": true,
         "afterRuleBegins": true,
         "afterRuleEnds": true,
-        "beforeBlockEnds": true,
-        "betweenSelectors": true
+        "beforeBlockEnds": true
       },
       "indentBy": 2
     }
