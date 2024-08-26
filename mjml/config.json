@@ -1,0 +1,20 @@
+{
+  "collapseWhitespace": true,
+  "minifyCSS": {
+    "format": {
+      "breaks": {
+        "afterAtRule": true,
+        "afterBlockBegins": true,
+        "afterBlockEnds": true,
+        "afterComment": true,
+        "afterProperty": true,
+        "afterRuleBegins": true,
+        "afterRuleEnds": true,
+        "beforeBlockEnds": true,
+        "betweenSelectors": true
+      },
+      "indentBy": 2
+    }
+  },
+  "preserveLineBreaks": true
+}
