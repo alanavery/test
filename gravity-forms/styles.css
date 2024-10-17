@@ -1,0 +1,26 @@
+fieldset {
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  float: left;
+  /* width: 100%; */
+  padding: 0;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.control {
+  display: flex;
+}
+
+input {
+  flex: 1;
+}

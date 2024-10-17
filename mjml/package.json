@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "mjml email.mjml -o email.html && pnpm run minify && pnpm run sed",
-    "minify": "html-minifier email.html -o email.html -c config.json && pnpm run sed",
-    "sed": "sed 's/title/monkey/g' email.html",
+    "compile": "mjml email.mjml -o email.html && pnpm run minify",
+    "minify": "html-minifier email.html -o email.html -c config.json",
+    "sed": "sed -i.bak 's/\\h/butt/g' email.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "mjml": "^4.15.3"
+    "mjml": "^4.15.3",
+    "replace": "^1.2.2"
   }
 }
